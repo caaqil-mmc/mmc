@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Writer Space</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-smooth-scroll="true"  tabindex="0">
+    <nav class="navbar navbar-expand-lg bg-white py-3 shadow fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img style="width: 140px" src="/images/Writespace.svg" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-lg-4">
+            <li class="nav-item">
+              <a href="#" class="btn btn-dark px-4 text-capitalize rounded-0"
+                >Sign up</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- ===========================================hero section  -->
+    <section id="hero">
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-12 col-lg-4 dev_flex">
+            <div class="heroData">
+              <h1 class="title">Discover Your Creativity</h1>
+              <p>
+                Explore your creative writing capabiities with us and write
+                exciting new stories and compositions, share with the community,
+                and get feedback.
+              </p>
+              <a
+                href="#"
+                class="btn btn-dark rounded-0 text-uppercase px-5 py-3"
+                >Start writing</a
+              >
+            </div>
+          </div>
+          <div class="col-12 col-lg-8 order-first order-lg-last">
+            <img src="/images/writer 1.svg" alt="hero" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================about section  -->
+    <section id="about">
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-12 col-lg-7">
+            <img src="/images/writer 2.svg" alt="about" />
+          </div>
+          <div class="col-12 col-lg-5 dev_flex">
+            <div class="aboutData">
+              <h2 class="subTitle">About Us</h2>
+              <h1 class="title">
+                Providing You The Best Resources To Kick Start Your Writing
+                Journey
+              </h1>
+              <p>
+                We provide you the best guidance from experts in the industry
+                along with tutorials and webinars condcuted by famous writers
+                and best-selling novelists.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <main id="blog">
+      <section id="story">
+        <div class="container">
+          <div class="row g-3">
+            <div class="col-12 col-lg-5 dev_flex">
+              <div class="storyData">
+                <h2 class="subTitle">Write Your Story</h2>
+                <h1 class="title">
+                  Get Started With Your First Writing Experience
+                </h1>
+                <p>
+                  Start writing your story and improve your creative writing
+                  capabilities. Inspire yourself and create your own magical
+                  world.
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-7">
+              <img src="/images/writer 3.svg" alt="story" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="publish">
+        <div class="container">
+          <div class="row g-3">
+            <div class="col-12 col-lg-7 order-last order-lg-first">
+              <img src="/images/writer 4.svg" alt="publish" />
+            </div>
+            <div class="col-12 col-lg-5 dev_flex">
+              <div class="publishData">
+                <h2 class="subTitle">Publish Your Story</h2>
+                <h1 class="title">Publish Your First Story On The Platform</h1>
+                <p>
+                  Get your story published on the platform and get feedback from
+                  the users in the community. Share your story among like-minded
+                  peers and receive advice from experiened seniors in the field.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- ==========================================contact section  -->
+    <section id="contact">
+      <div class="container">
+        <div class="contactData">
+          <h3 class="text-white text-center fw-bold mb-4">
+            Start your writing journey today
+          </h3>
+          <p class="text-white text-center">
+            Subscribe below to receive a newsletter
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-6 offset-lg-3">
+            <form action="#">
+              <div class="input-group p-2 rounded-1 bg-white">
+                <input
+                  type="text"
+                  class="form-control p-2"
+                  placeholder="Recipient's username"
+                  aria-label="Recipient's username"
+                  aria-describedby="button-addon2"
+                />
+                <button
+                  class="btn btn-lg"
+                  type="button"
+                  id="button-addon"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =================================footer secton  -->
+    <section id="footer">
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-12 col-lg-4">
+            <div class="logo">
+              <img style="width: 200px;" src="/images/Writespace.svg" alt="logo">
+            </div>
+          </div>
+          <div class="col-12 col-lg-8 d-flex flex-lg-row flex-column justify-content-end align-items-lg-center gap-4">
+            <a href="#" class="text-capitalize text-decoration-none text-dark">Home</a>
+            <a href="#" class="text-capitalize text-decoration-none text-dark">About</a>
+            <a href="#" class="text-capitalize text-decoration-none text-dark">Blog</a>
+            <a href="#" class="text-capitalize text-decoration-none text-dark">Contact</a>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

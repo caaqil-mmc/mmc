@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+:root {
+  --h1--size: 2rem;
+  --h2--size: 1.5rem;
+  --p--size: 13px;
+  --h1-line-h: 40px;
+}
+@media only screen and (min-width:992px){
+  :root {
+  --h1--size: 3.5rem;
+  --h2--size: 2.5rem;
+  --p--size: 1rem;
+  --h1-line-h: 75px;
+}
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+img{
+  width: 100%;
+}
+section{
+  padding: 100px 0px;
+}
+.title{
+  font-weight: 700;
+  font-size: var(--h1--size);
+  text-transform: capitalize;
+  line-height: var(--h1-line-h);
+  margin-bottom: 1.5rem;
+}
+.subTitle{
+  font-weight: 600;
+  font-size: var(--h2--size);
+  text-transform: capitalize;
+  margin-bottom: 1.5rem;
+  letter-spacing: 8px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.dev_flex{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+p{
+  font-size: var(--p--size);
+}
+#contact{
+  background-color: #262626;
+}
+.form-control{
+  border: none;
+}
+.form-control:focus{
+  box-shadow: none;
+}
+#button-addon{
+  background-color: #F4B500;
+  border-radius: 4px;
+  color: #262626;
+  text-transform: uppercase;
+  border: none;
+
+}
+.active{
+  color: #F4B500 !important;
+}
